@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Recent glass projects across King County: shower glass, window repair/replacement, storefront glass, and partitions. Call (425) 606-9444." />
+  <title>Projects | Aria Glass LLC</title>
+
+  <link rel="canonical" href="https://www.ariaglass.us/projects.html" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script defer src="/assets/script.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="sticky-call" href="tel:+14256069444" aria-label="Call Aria Glass now">Call Now • (425) 606-9444</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html" aria-label="Aria Glass home">
+        <span class="logo-mark" aria-hidden="true">AG</span>
+        <span class="logo-text">
+          <span class="logo-name">Aria Glass</span>
+          <span class="logo-sub">Redmond, WA</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a href="/services.html">Services</a>
+        <a href="/projects.html" aria-current="page">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" class="btn btn-small">Get a Quote</a>
+        <a class="nav-call" href="tel:+14256069444">(425) 606-9444</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Proof of work</p>
+        <h1>Recent Glass Projects</h1>
+        <p class="lead">A look at the quality, fit, and finish we bring to every job—residential and commercial across King County.</p>
+        <div class="cta-row">
+          <a class="btn" href="/contact.html">Request a Quote</a>
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Clean lines. Professional installation.</h2>
+          <p>Browse examples below. Want something similar? Send a photo—we’ll guide you to the best option.</p>
+        </div>
+
+        <div class="project-grid">
+          <!-- 12 placeholder cards -->
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Custom Shower Door Install</h3>
+            <p class="micro subtle">Bellevue, WA • Precise measurement + smooth hardware for a clean modern finish.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Foggy Double-Pane Glass Repair</h3>
+            <p class="micro subtle">Redmond, WA • Restored clarity after seal failure assessment.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Storefront Glass Replacement</h3>
+            <p class="micro subtle">Kirkland, WA • Replaced damaged glass to restore visibility and security.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Window Pane Replacement</h3>
+            <p class="micro subtle">Issaquah, WA • Replaced cracked glass and sealed for a clean finish.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Shower Enclosure Upgrade</h3>
+            <p class="micro subtle">Sammamish, WA • Modern enclosure with premium hardware selection.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Office Glass Partition</h3>
+            <p class="micro subtle">Seattle, WA • Added privacy while keeping the space bright and open.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Window Replacement Refresh</h3>
+            <p class="micro subtle">Woodinville, WA • Improved comfort and curb appeal with new windows.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Storefront Repair Service</h3>
+            <p class="micro subtle">Bothell, WA • Quick repair to restore safety and appearance.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Frosted Glass Privacy Panel</h3>
+            <p class="micro subtle">Mercer Island, WA • Privacy upgrade for office interior.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Double-Pane Replacement</h3>
+            <p class="micro subtle">Renton, WA • Replaced failed insulated glass for improved insulation.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Glass Door Install</h3>
+            <p class="micro subtle">Newcastle, WA • Clean fit and alignment for smooth operation.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img" role="img" aria-label="Project photo placeholder"></div>
+            <h3>Partition Layout Build</h3>
+            <p class="micro subtle">Shoreline, WA • Modern partition layout for a refined interior.</p>
+          </article>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section-head">
+          <h2>FAQs</h2>
+        </div>
+
+        <div class="faq" data-accordion>
+          <details><summary>Can you match what I see here?</summary><p>Usually yes—send photos and we’ll confirm options.</p></details>
+          <details><summary>Do you help with design?</summary><p>Yes, especially for shower glass and partitions.</p></details>
+          <details><summary>Do you coordinate with contractors?</summary><p>Yes, we can align with remodel timelines.</p></details>
+          <details><summary>Do you handle commercial properties?</summary><p>Yes—storefront and office glass solutions.</p></details>
+          <details><summary>How do I get an estimate?</summary><p>Call or submit the quote form.</p></details>
+        </div>
+
+        <div class="center">
+          <a class="btn" href="/contact.html">Get a Free Quote</a>
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner">
+        <div>
+          <h2>Want a quote for a similar project?</h2>
+          <p>Send a photo and we’ll guide you to the best option.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="/contact.html">Get a Free Quote</a>
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Aria Glass LLC</div>
+        <p class="micro">
+          18336 Redmond Way, Redmond, WA 98052<br/>
+          <a href="tel:+14256069444">(425) 606-9444</a>
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="footer-note micro subtle">
+        <p>Residential &amp; Commercial Glass Services • King County, WA</p>
+        <p>© <span data-year></span> Aria Glass LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

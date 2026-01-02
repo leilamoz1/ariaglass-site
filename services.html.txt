@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Glass services in Redmond & King County: window replacement, double-pane repair, shower glass, storefront glass, and partitions. Call (425) 606-9444." />
+  <title>Services | Aria Glass LLC</title>
+
+  <link rel="canonical" href="https://www.ariaglass.us/services.html" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script defer src="/assets/script.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="sticky-call" href="tel:+14256069444" aria-label="Call Aria Glass now">Call Now • (425) 606-9444</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html" aria-label="Aria Glass home">
+        <span class="logo-mark" aria-hidden="true">AG</span>
+        <span class="logo-text">
+          <span class="logo-name">Aria Glass</span>
+          <span class="logo-sub">Redmond, WA</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a href="/services.html" aria-current="page">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" class="btn btn-small">Get a Quote</a>
+        <a class="nav-call" href="tel:+14256069444">(425) 606-9444</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Residential + Commercial</p>
+        <h1>Glass Services in Redmond &amp; King County</h1>
+        <p class="lead">High-quality repairs and installations—done with a clean finish and clear communication.</p>
+        <div class="cta-row">
+          <a class="btn" href="/contact.html">Request a Quote</a>
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container service-detail" id="window-replacement">
+        <div class="service-detail-head">
+          <h2>Window Replacement</h2>
+          <p>Replace damaged or outdated windows to improve comfort, efficiency, and appearance.</p>
+        </div>
+        <div class="service-detail-body">
+          <div class="info-list">
+            <div><strong>Best for:</strong> cracked glass, drafts, leaks, aging frames, remodels.</div>
+            <div><strong>What you’ll get:</strong> recommendations, measurements, clean install.</div>
+          </div>
+          <div class="callout">
+            <h3>Replacement vs. repair?</h3>
+            <p>If the frame is failing, leaking, or you want a full upgrade, replacement is usually best. If it’s only the glass, repair may work.</p>
+            <a class="btn btn-small" href="/contact.html">Get a window quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container service-detail" id="double-pane-repair">
+        <div class="service-detail-head">
+          <h2>Double-Pane Repair (Foggy Windows / Failed Seal)</h2>
+          <p>Diagnose fogging, condensation between panes, and seal failure.</p>
+        </div>
+        <div class="service-detail-body">
+          <div class="info-list">
+            <div><strong>Best for:</strong> cloudiness, moisture between glass, reduced insulation.</div>
+            <div><strong>What you’ll get:</strong> repair if practical, replacement if needed.</div>
+          </div>
+          <div class="callout">
+            <h3>Is foggy glass always repairable?</h3>
+            <p>Not always. We’ll confirm what’s feasible based on window condition and availability.</p>
+            <a class="btn btn-small" href="/contact.html">Check my foggy window</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container service-detail" id="shower-glass">
+        <div class="service-detail-head">
+          <h2>Shower Glass &amp; Doors (Custom)</h2>
+          <p>Custom shower glass, doors, enclosures, and hardware installs.</p>
+        </div>
+        <div class="service-detail-body">
+          <div class="info-list">
+            <div><strong>Best for:</strong> bathroom remodels, upgrades, modern look.</div>
+            <div><strong>Options:</strong> glass type/thickness, door style, hardware finish.</div>
+          </div>
+          <div class="callout">
+            <h3>Do you help with design choices?</h3>
+            <p>Yes—based on your space, usage, and the style you want.</p>
+            <a class="btn btn-small" href="/contact.html">Request a shower quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container service-detail" id="storefront">
+        <div class="service-detail-head">
+          <h2>Storefront Repair &amp; Replacement</h2>
+          <p>Repair or replace storefront glass for safety, visibility, and security.</p>
+        </div>
+        <div class="service-detail-body">
+          <div class="info-list">
+            <div><strong>Best for:</strong> cracks, damage, tenant turnover, refresh.</div>
+            <div><strong>What you’ll get:</strong> clean finish, minimal disruption.</div>
+          </div>
+          <div class="callout">
+            <h3>Property managers + tenants?</h3>
+            <p>Yes—we coordinate scheduling, access, and basic documentation.</p>
+            <a class="btn btn-small" href="/contact.html">Schedule commercial service</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container service-detail" id="partitions">
+        <div class="service-detail-head">
+          <h2>Glass Walls / Partitions</h2>
+          <p>Modern partitions for offices and interiors—privacy, light, and style.</p>
+        </div>
+        <div class="service-detail-body">
+          <div class="info-list">
+            <div><strong>Best for:</strong> offices, conference rooms, interior builds.</div>
+            <div><strong>Privacy options:</strong> clear, frosted, and other treatments.</div>
+          </div>
+          <div class="callout">
+            <h3>Can partitions be frosted?</h3>
+            <p>Yes—privacy options are available depending on your needs.</p>
+            <a class="btn btn-small" href="/contact.html">Plan a partition</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQs</h2>
+        </div>
+
+        <div class="faq" data-accordion>
+          <details><summary>Do you do residential + commercial?</summary><p>Yes.</p></details>
+          <details><summary>Do you provide estimates?</summary><p>Yes—call or request online.</p></details>
+          <details><summary>What do you need for a quote?</summary><p>Photos, rough size/measurements, location, and timeline.</p></details>
+          <details><summary>Do you do custom work?</summary><p>Yes—especially for shower glass and partitions.</p></details>
+          <details><summary>How long do projects take?</summary><p>Depends on scope; we’ll provide a clear timeline.</p></details>
+          <details><summary>What affects price?</summary><p>Glass type, size, safety requirements, hardware, and complexity.</p></details>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section-head">
+          <h2>Service Area</h2>
+          <p>Redmond, Bellevue, Kirkland, Issaquah, Sammamish, Woodinville, Bothell, Kenmore, Renton, Newcastle, Mercer Island, Seattle, Shoreline, Lynnwood, Edmonds</p>
+        </div>
+
+        <div class="center">
+          <a class="btn" href="/contact.html">Get a Free Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner">
+        <div>
+          <h2>Need glass service?</h2>
+          <p>We’ll guide you to the best option—fast.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="/contact.html">Request a Quote</a>
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Aria Glass LLC</div>
+        <p class="micro">
+          18336 Redmond Way, Redmond, WA 98052<br/>
+          <a href="tel:+14256069444">(425) 606-9444</a>
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="footer-note micro subtle">
+        <p>Residential &amp; Commercial Glass Services • King County, WA</p>
+        <p>© <span data-year></span> Aria Glass LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

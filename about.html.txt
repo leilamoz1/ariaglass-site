@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="About Aria Glass LLC: a local glass company based in Redmond serving King County with premium workmanship and clear communication. Call (425) 606-9444." />
+  <title>About | Aria Glass LLC</title>
+
+  <link rel="canonical" href="https://www.ariaglass.us/about.html" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script defer src="/assets/script.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="sticky-call" href="tel:+14256069444" aria-label="Call Aria Glass now">Call Now • (425) 606-9444</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html" aria-label="Aria Glass home">
+        <span class="logo-mark" aria-hidden="true">AG</span>
+        <span class="logo-text">
+          <span class="logo-name">Aria Glass</span>
+          <span class="logo-sub">Redmond, WA</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html" aria-current="page">About</a>
+        <a href="/contact.html" class="btn btn-small">Get a Quote</a>
+        <a class="nav-call" href="tel:+14256069444">(425) 606-9444</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Local • Professional</p>
+        <h1>About Aria Glass</h1>
+        <p class="lead">A local glass company serving Redmond and King County with premium workmanship, clear communication, and professional results.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <h2>Professional glass work—done the right way</h2>
+        <p>
+          Aria Glass LLC is based in Redmond, Washington and serves homeowners and businesses across King County and nearby cities.
+          We focus on clean installs, reliable repairs, and a finished look that feels premium—whether it’s a custom shower door,
+          a storefront replacement, or a window repair.
+        </p>
+        <p>
+          Our process is straightforward: we listen, inspect, recommend the best option, and deliver quality work with respect for your space and your time.
+        </p>
+
+        <div class="divider"></div>
+
+        <h2>What you can expect</h2>
+        <ul class="checklist">
+          <li><strong>Quality-first approach</strong> — accurate measurements, clean fit, and a polished finish</li>
+          <li><strong>Clear estimates</strong> — options explained simply</li>
+          <li><strong>On-time communication</strong> — you’ll know what’s happening and when</li>
+          <li><strong>Respect for your space</strong> — we protect surfaces and clean up after the job</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <h2>Who we serve</h2>
+        <p>Homeowners • Remodelers • Property managers • Retail storefronts • Offices</p>
+
+        <div class="divider"></div>
+
+        <h2>FAQs</h2>
+        <div class="faq" data-accordion>
+          <details><summary>Where are you located?</summary><p>18336 Redmond Way, Redmond, WA 98052.</p></details>
+          <details><summary>Do you travel outside Redmond?</summary><p>Yes—King County and nearby cities.</p></details>
+          <details><summary>What services do you specialize in?</summary><p>Windows, double-pane repair, shower glass, storefronts, partitions.</p></details>
+          <details><summary>Do you offer custom work?</summary><p>Yes—especially for shower glass and partitions.</p></details>
+          <details><summary>How do I get a quote?</summary><p>Call or submit a request.</p></details>
+          <details><summary>What’s the best way to start?</summary><p>Send photos and basic measurements for faster turnaround.</p></details>
+        </div>
+
+        <div class="center">
+          <a class="btn" href="/contact.html">Get a Free Quote</a>
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Aria Glass LLC</div>
+        <p class="micro">
+          18336 Redmond Way, Redmond, WA 98052<br/>
+          <a href="tel:+14256069444">(425) 606-9444</a>
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="footer-note micro subtle">
+        <p>Residential &amp; Commercial Glass Services • King County, WA</p>
+        <p>© <span data-year></span> Aria Glass LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

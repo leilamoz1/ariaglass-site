@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Get a free quote from Aria Glass LLC. Call (425) 606-9444 or request online. Serving Redmond & King County." />
+  <title>Get a Free Quote | Aria Glass LLC</title>
+
+  <link rel="canonical" href="https://www.ariaglass.us/contact.html" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script defer src="/assets/script.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="sticky-call" href="tel:+14256069444" aria-label="Call Aria Glass now">Call Now • (425) 606-9444</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html" aria-label="Aria Glass home">
+        <span class="logo-mark" aria-hidden="true">AG</span>
+        <span class="logo-text">
+          <span class="logo-name">Aria Glass</span>
+          <span class="logo-sub">Redmond, WA</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" aria-current="page" class="btn btn-small">Get a Quote</a>
+        <a class="nav-call" href="tel:+14256069444">(425) 606-9444</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Get started</p>
+        <h1>Get a Free Quote</h1>
+        <p class="lead">Tell us what you need—upload photos if you have them—and we’ll respond with next steps and a clear estimate.</p>
+        <div class="cta-row">
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="card">
+          <h2 class="card-title">Contact Aria Glass</h2>
+          <p class="micro subtle">
+            <strong>Phone:</strong> <a href="tel:+14256069444">(425) 606-9444</a><br/>
+            <strong>Address:</strong> 18336 Redmond Way, Redmond, WA 98052
+          </p>
+
+          <div class="mini-map">
+            <iframe
+              title="Map to Aria Glass LLC"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=18336%20Redmond%20Way%2C%20Redmond%2C%20WA%2098052&output=embed">
+            </iframe>
+          </div>
+
+          <h3>Service Area</h3>
+          <p class="micro subtle">
+            Redmond, Bellevue, Kirkland, Issaquah, Sammamish, Woodinville, Bothell, Kenmore, Renton, Newcastle, Mercer Island, Seattle, Shoreline, Lynnwood, Edmonds
+          </p>
+
+          <div class="divider"></div>
+
+          <h3>FAQs</h3>
+          <div class="faq" data-accordion>
+            <details><summary>What should I include for the fastest quote?</summary><p>Photos + rough dimensions + your city.</p></details>
+            <details><summary>Do you do on-site measurements?</summary><p>Yes, especially for custom installs.</p></details>
+            <details><summary>Do you work with property managers?</summary><p>Yes.</p></details>
+            <details><summary>Do you offer commercial service?</summary><p>Yes—storefront and partitions.</p></details>
+            <details><summary>How soon can you schedule?</summary><p>We’ll confirm availability when we respond.</p></details>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">Request a quote</h2>
+          <p class="card-sub">Photos help us estimate faster.</p>
+
+          <!-- Quote form (Contact) -->
+          <form class="form" action="#" method="post" data-form>
+            <div class="grid-2">
+              <label>
+                Name
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Phone
+                <input name="phone" autocomplete="tel" inputmode="tel" required />
+              </label>
+            </div>
+
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" />
+            </label>
+
+            <div class="grid-2">
+              <label>
+                City / ZIP
+                <input name="city" autocomplete="address-level2" required />
+              </label>
+              <label>
+                Service needed
+                <select name="service" required>
+                  <option value="" selected disabled>Select</option>
+                  <option>Window Replacement</option>
+                  <option>Double-Pane Repair</option>
+                  <option>Shower Glass / Doors</option>
+                  <option>Storefront Glass</option>
+                  <option>Glass Walls / Partitions</option>
+                  <option>Other</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Timeline
+              <select name="timeline" required>
+                <option value="" selected disabled>Select</option>
+                <option>ASAP</option>
+                <option>This week</option>
+                <option>2–4 weeks</option>
+                <option>Flexible</option>
+              </select>
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Describe the issue or what you want installed." required></textarea>
+            </label>
+
+            <label class="file">
+              Upload photos (optional)
+              <input type="file" name="photos" accept="image/*" multiple />
+            </label>
+
+            <button class="btn btn-full" type="submit">Request Quote</button>
+            <p class="micro subtle">By submitting, you agree to be contacted about your request.</p>
+
+            <div class="form-note" role="status" aria-live="polite" data-form-status></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner">
+        <div>
+          <h2>Need help choosing the right option?</h2>
+          <p>Call us and we’ll guide you quickly.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-ghost" href="tel:+14256069444">Call (425) 606-9444</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Aria Glass LLC</div>
+        <p class="micro">
+          18336 Redmond Way, Redmond, WA 98052<br/>
+          <a href="tel:+14256069444">(425) 606-9444</a>
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="footer-note micro subtle">
+        <p>Residential &amp; Commercial Glass Services • King County, WA</p>
+        <p>© <span data-year></span> Aria Glass LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

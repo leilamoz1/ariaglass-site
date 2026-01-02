@@ -1,0 +1,77 @@
+// Aria Glass - simple, fast JS (no frameworks)
+
+(function () {
+  // Footer year
+  const yearEl = document.querySelector('[data-year]');
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+  // Mobile nav toggle
+  const toggle = document.querySelector('[data-nav-toggle]');
+  const nav = document.querySelector('[data-nav]');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Close menu when clicking a link (mobile)
+    nav.addEventListener('click', (e) => {
+      const t = e.target;
+      if (t && t.tagName === 'A' && nav.classList.contains('is-open')) {
+        nav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Close menu on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav.classList.contains('is-open')) {
+        nav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // Accordion: make only one open at a time inside each [data-accordion]
+  document.querySelectorAll('[data-accordion]').forEach((wrap) => {
+    wrap.addEventListener('toggle', (e) => {
+      const target = e.target;
+      if (!(target instanceof HTMLDetailsElement)) return;
+      if (!target.open) return;
+
+      wrap.querySelectorAll('details').forEach((d) => {
+        if (d !== target) d.open = false;
+      });
+    }, true);
+  });
+
+  // Form handler (client-side only)
+  // NOTE: For real submissions, connect to Formspree / Netlify Forms / your backend.
+  document.querySelectorAll('form[data-form]').forEach((form) => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const status = form.querySelector('[data-form-status]');
+      if (!status) return;
+
+      // Basic required validation
+      const required = form.querySelectorAll('[required]');
+      for (const el of required) {
+        if (!el.value || !String(el.value).trim()) {
+          status.textContent = 'Please fill in the required fields so we can send your quote.';
+          status.className = 'form-note is-error';
+          el.focus();
+          return;
+        }
+      }
+
+      // Success message (placeholder)
+      status.textContent =
+        "Thanks! We received your request. For fastest service, you can also call (425) 606-9444.";
+      status.className = 'form-note is-success';
+
+      // Optionally clear the form
+      // form.reset();
+    });
+  });
+})();
